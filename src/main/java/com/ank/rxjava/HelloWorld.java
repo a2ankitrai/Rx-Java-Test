@@ -16,7 +16,7 @@ public class HelloWorld {
 	}
 	
 	public static void main(String[] args) {
-		Flowable.just("Starting React").subscribe(System.out::println);
+		Flowable.just("Starting React","1","2","3").subscribe(System.out::println);
          
 		HelloWorld obj = new HelloWorld();
 		obj.returnAValue();
